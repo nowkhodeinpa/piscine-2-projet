@@ -1,0 +1,156 @@
+* {
+margin:0px;
+padding:0px;
+font-family: sans-serif;
+}
+a {
+color:white;
+text-decoration:none;
+font-size:small;
+}
+.clear {
+	clear:both;
+}
+
+
+	.upload_link{
+		text-decoration:none;
+	}
+	.input-scan{
+		display:none
+	}
+	table, th, td, tr {
+	padding:5px;
+	}
+	table{
+		width:800px;
+	}
+	th {
+	background-color:#EEE;
+	}
+	
+	span {
+	}
+	.stat, .span-cell {		
+		display: inline-block;
+		margin-bottom: 5px;
+	}
+	.cell-stat-gest, .remb-ko {
+		padding: 5px;
+        border-radius: 5px;
+	}
+	.stat-gest-0, .remb-ko {
+		background-color:#ea8b8b;		
+	}
+	.stat-gest-1 {
+		background-color:#ecc273;		
+	}
+	.stat-gest-2 {
+		background-color:#aeeaae;
+	}
+	.stat-mail {
+		background-color:#aeeaae;		
+		padding: 5px;
+        border-radius: 5px;
+	}
+	
+	.cell-stat-doc{		
+		padding: 5px;
+        border-radius: 5px;
+	} 
+	.stat-doc-1{
+		background-color:#aeeaae;
+	}
+	.btn-validate-doc {
+		background-color:#55F;
+	}
+	.a-incident {
+		text-decoration: none;
+		padding: 5px;
+		border-radius: 5px;
+		background-color: #2BF;
+		margin-bottom: 5px;
+		display: inline-block;
+	}
+	
+	.doc-pdf {
+		background-color:#aeeaae;		
+		padding: 5px;
+        border-radius: 5px;
+	}
+/*modif*/
+.visible {
+	display:inline-block;
+}
+.invisible {
+	display:none;
+}
+/*
+* 03-03-20
+*/
+
+
+/*Mise en page du container*/
+.container{
+  width:960px;
+  border-left:1px solid #DDD333;
+  border-right:1px solid #DDD333;
+  margin:0 auto;
+  padding:5px;
+}
+
+/*Mise en forme de la page du point d'entrée du site*/
+.welcome {
+  width:500px;
+  border:1px solid #EEE;
+  margin:0 auto;
+  padding:15px;	
+}
+
+/*Mise en forme du texte principale de la page du point d'entrée du site*/
+.text-welcome {
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    padding: 15px;
+}
+
+/*Mise en forme du tableau de liste*/
+
+.table-list {
+	margin: 0 auto;
+}
+
+.table-list th{
+	background-color:#EEE;
+}
+
+.table-list th, td {
+	padding:15px;
+}
+
+.demande-remboursement {
+	background-color: #2BF;
+    border-radius: 6px;
+    padding: 5px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+	border: 1px solid #EEF;
+}
+
+.demande-remboursement:hover {
+	border: 1px solid #0EF;
+}
+
+#dialog{
+	display:none;
+}
+.error {
+	color:red;
+	font-size: small;
+	
+}
+.input-err {
+	border:1px red solid;
+}

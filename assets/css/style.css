@@ -1,0 +1,129 @@
+/*Mise en forme du section container*/
+#container {
+    /*width:960px;	*/
+	width:auto;
+	height:auto;
+	margin:0 auto;
+	padding:0 5px;
+	/*background-color:#EEE;*/
+}
+
+/*Mise en forme du section menu*/
+#menu {	
+    width: 200px;
+    height: 600px;
+    /*top: 90px;*/
+    padding: 0 5px;
+    background-color: #555;
+    float: left;
+    /*position: relative;*/
+}
+
+/*Mise en forme du section page*/
+#page {
+    /*width:710px;*/
+    width:auto;	
+	/*height:900px;*/
+	margin-left:15px;
+	padding:0 5px;
+	/*background-color:#EFE;*/
+	float:left;	
+}
+
+ul{
+ list-style-position: inside;
+ list-style-type: none;	
+}
+
+.ul-menu-admin{
+    /*position: relative;
+    top: 150px;	*/
+}
+.li-list-data{
+	padding: 20px;
+    background-color: #eeeeee;
+    margin: 15px 0;
+}
+
+.a-list-data {
+	color:black;
+	font-size:small;
+}
+.title-filtre {
+	text-align: center;
+    color: white;
+    font-variant: small-caps;
+    border-bottom: 1px dotted;
+    border-bottom-width: thin;
+}
+
+.filtre {	
+  position: relative;
+  top: 10px;
+}
+
+.nb-item {
+	border-radius: 11px;
+    background-color: white;
+    padding: 5px;
+    font-weight: bold;
+	color:#555;
+}
+
+.li-filtre {
+	background-color:#eeefff;
+}
+#pagination {
+    width:auto;
+	padding:0 5px;
+	/*background-color:#555;*/
+	margin: 5px auto;
+	/*color:white;*/
+}
+
+.tableau-bord-pagination {
+	padding: 10px 20px 0px; 
+	border-top: dotted 1px #555; 
+	/*background-color: white; */
+	color:#555; 
+	margin-bottom:5px;
+}
+.button-pagination {
+	color:black;
+}
+
+.pagination {
+	/*border:1px solid black;*/
+}
+.a-pagination{
+	color:black;
+}
+
+.pagination li {
+	float:left;
+	background-color: #555;
+	padding: 1px;
+	
+}
+
+.span-pagination {
+	/*border-radius: 11px;*/
+    background-color: white;
+    padding: 5px;
+    font-weight: bold;
+    color: #555;
+}
+.num-page {
+	background-color:white !important;
+}
+
+.num-page a {
+	color:#555 !important;
+	text-decoration:underline !important;
+	font-weight:bold;
+	padding: 3px;
+}
+
+li.num-page.active a{
+ 	color:#2BF !important;
+}
